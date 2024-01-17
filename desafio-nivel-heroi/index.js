@@ -30,5 +30,10 @@ if (xpHeroi <= 1000) {
     nivelHeroi = "Radiante"
     console.log("O heroi " + nomeHeroi + " está no nivel " + nivelHeroi + ("."))
 } else{
-    console.log("Valor Invalido")
+    console.log("Valor de Experiencia Invalido.")
 }
+
+//Optei por colocar a mensagem dentro dos ifs porque se o usuario
+//colocasse um valor invalido de experiencia, como "X" por exemplo,
+//o codigo deverá informar que o valor é invalido ao invés de
+//apresentar erro.
